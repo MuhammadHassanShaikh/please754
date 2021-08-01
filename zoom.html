@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .img {
+            position: relative;
+            overflow: hidden;
+            height: 500px;
+        }
+
+        .first-txt {
+            position: absolute;
+            top: 0px;
+            left: 20px;
+        }
+
+        .second-txt {
+            position: absolute;
+            bottom: 450px;
+            left: 10px;
+        }
+
+        .bar {
+            height: 50px;
+            background-color: green;
+            background: linear-gradient(green 70%, lightgreen);
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .bar nav {
+            padding-top: 10px;
+        }
+
+        .bar a {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .left 
+        {
+            background: linear-gradient(darkgreen 30%,lightgreen 60%);
+            width: 23.33%;
+            height: 900px;
+            float: right;
+            border-radius: 20px;
+        }
+
+        .pink {
+            background-color: white;
+            width: 23.33%;
+            height: 900px;
+            float: left;
+            border-radius: 20px;
+        }
+
+        .right {
+            background-color: white;
+            width: 53.33%;
+            height: 900px;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+        .right img{
+            float: left;
+            width: 50%;
+            height: 150px;
+            padding: 0 10px 0 0;     
+        }
+
+        .right p{
+            text-align: justify;
+            font-family: verdana;
+        }     
+
+        .table th{
+            background-color: green;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .table tr{
+            color: green;
+        }
+
+        .table2 th{
+            background-color: green;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .table2 tr{
+            color: green;
+        }
+
+        .right h1{
+            background-color: lightgreen;
+        }
+</style>
+</head>
+
+<body>
+    <div class="img">
+        <img src="final.png" alt="">
+        <h1 class="first-txt">
+            Silk<font color="green">Green</font>
+        </h1>
+
+        <h3 class="second-txt">
+            This is final assignment of CSS
+        </h3>
+    </div>
+    <div class="bar">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="left"></div>
+    <div class="pink">
+        <table class="table" border="1px" width="97%" height="400px">
+            <tr>
+                <th>Products</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+
+            </tr>
+            <tr>
+                <td>CSS</td>
+
+            </tr>
+            <tr>
+                <td>Java Script</td>
+
+            </tr>
+            <tr>
+                <td>J query</td>
+
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+
+            </tr>
+            <tr>
+                <td>PHP</td>
+
+            </tr>
+            <tr>
+                <td>my sql</td>
+
+            </tr>
+            <tr>
+                <td>Wordprees</td>
+
+            </tr>
+            <tr>
+                <td>Plugins</td>
+
+            </tr>
+            <tr>
+                <td>Thems</td>
+
+            </tr>
+
+        </table><br><br>
+        <table class="table2" border="1" width="97%" height="400px">
+            <tr>
+                <th>Services</th>
+            </tr>
+            <tr>
+                <td>Front end Development</td>
+
+            </tr>
+            <tr>
+                <td>Backend Development</td>
+
+            </tr>
+            <tr>
+                <td>SEO Expert</td>
+
+            </tr>
+            <tr>
+                <td>Wordprees Development</td>
+
+            </tr>
+            <tr>
+                <td>E-commerce Development</td>
+
+            </tr>
+            <tr>
+                <td>Best Hosting</td>
+
+            </tr>
+            <tr>
+                <td>Software Development</td>
+
+            </tr>
+        </table>
+    </div>
+    <div class="right">
+        <h1>Advantage of Website</h1><br>
+        <img  src="final.png" alt="">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem earum quidem blanditiis, 
+                dolore illo, vel iusto hic itaque perferendis 
+                maxime cum voluptas ducimus molestiae saepe esse iste omnis animi.</p><br><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                    consectetur doloribus. Assumenda harum ratione earum, soluta suscipit esse non maxime at eius 
+                    repellat dolor dolorem cumque eum dolorum enim pariatur?</p>
+            </div><br>
+            <h1>Advantage of Wordprees Website</h1><br>
+        <img  src="final.png" alt="">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem earum quidem blanditiis, 
+                dolore illo, vel iusto hic itaque perferendis 
+                maxime cum voluptas ducimus molestiae saepe esse iste omnis animi.</p><br><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                    consectetur doloribus. Assumenda harum ratione earum, soluta suscipit esse non maxime at eius 
+                    repellat dolor dolorem cumque eum dolorum enim pariatur?</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                        consectetur doloribus. Assumenda harum ratione earum, soluta suscipit esse non maxime at eius 
+                        repellat dolor dolorem cumque eum dolorum enim pariatur?</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                            consectetur doloribus. Assumenda harum ratione earum, soluta suscipit esse non maxime at eius 
+                            repellat dolor dolorem cumque eum dolorum enim pariatur?</p>
+            </div>
+    </div>
+
+</body>
+
+</html>
